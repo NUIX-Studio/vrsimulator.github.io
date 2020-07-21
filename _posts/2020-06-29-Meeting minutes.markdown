@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meeting minutes"
-date:   2020-07-13 08:40:00 +0300
+date:   2020-07-21 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
@@ -31,10 +31,26 @@ This week:
 1. (J) Created a Unity project with audio sound and controllers.
 
 Next week:
-1. Connect the Unity project and OpenHab: it means that real devices could be controlled in Unity.
+1. Connect the Unity project and openHAB: it means that real devices could be controlled in Unity.
 2. Continue on improving the Unity Project.
 
 After developing the [prototype](/vrsimulator/posts/2020/07/12/VRSimulator-Architecture.html), ask professor's opinion and continue developing further (main parts, such as interaction services, location services and extending the number of supported commands (in VR) for IoT devices).
+
+## Pre-fourth meeting (2020.07.21)
+
+Discussed current status of the project
+
+## Fourth meeting (2020.07.21)
+
+This week:
+1. Connected Unity project and openHAB, recorded a demo video.
+
+What was mentioned / plans:
+1. Add implementation of the thing: define different types of the things and how each of the types will be represented in VR.
+2. Think about simultaneous using of the project, and also how to decrease latency (check 直面).
+3. How to register the location of the user? (is [Oculus Quest](https://www.oculus.com/quest/?locale=en_US) enough?) Also locating IoT devices is not required (only for robots).
+4. Can use two different VR headsets (and compare them).
+5. How are the post / get requests are created in openHAB? How can we add our own code to the openHAB platform?
 
 
 

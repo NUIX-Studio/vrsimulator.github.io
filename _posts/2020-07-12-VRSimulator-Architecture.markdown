@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VRSimulator Architecture"
-date:   2020-07-20 00:00:00 +0000
+date:   2020-07-21 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
@@ -28,7 +28,16 @@ The following scheme has been taken form [this source](https://community.openhab
 ![](/files/20200721-openhabfeatures.png)
 # User interfaces
 
-Currently, there is no need to build the class diagram for the VR part. But one thing has to be noticed: VR part should include same items, channels and things as in the openHAB part. As you can see in this diagram, things are not connected to the REST API, so we will need to store the things states additionaly.
+(added after the fifth meeting)
+
+Since researches can use the system and the room simultaneously, we need a server to store the states of the IoT VR devices (for example, location).
+The fields which will already be in the basic class are:
+ - location in real world / location in virtual world
+ - hashnum / id of the thing
+ - link to the openHAB twin and post/get commands for each service
+ - type of the thing
+ - link to the mesh of the thing (optional)
+ - interaction api (touch, sound etc)
 
 
             
