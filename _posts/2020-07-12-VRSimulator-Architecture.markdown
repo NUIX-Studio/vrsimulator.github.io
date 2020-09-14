@@ -1,31 +1,13 @@
 ---
 layout: post
 title:  "VRSimulator Architecture"
-date:   2020-07-21 00:00:00 +0000
+date:   2020-09-14 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
-# Getting info from IoT devives
-We use an open-source solution to get the data from IoT devices sensors, and which allows us to add our own code (for additional ways of interaction, made possible using VR).
-
-# Server
-Running OpenHab Server on the local machine.
-
-# Connecting to Unity
-Getting and sending the data to the server using REST API.
-
-# Virtual Reality
-Using a project in Unity to visualize and interact with IoT devices.
-
-# Scheme
-
-![](/files/20200713-Architecture.jpg)
-
-# IoT VR Platform Architecture Design
-
 # Introduction
 
-In this document we talk about the design of the VR IoT Platform. For other information please refer to [vrsimulator.github.io](https://vrsimulator.github.io/).
+This document is about the design of the VR IoT Platform.
 
 The Platform we develop is a complex product and it consists of several parts. First, have a look at the tree structure, from top to the bottom:
 
@@ -98,17 +80,20 @@ To synchronize with Unity Project, use commands from Unity Integration.
 
 Client runs on the VR headset and synchronizes the data from the Server. Current implementation runs on Oculus Quest as an APK file. To test the devices locally, use VR IoT Playground project.
 
-![](RackMultipart20200914-4-9mmxwh_html_3cb49d37de75dbf6.png)
+![](/files/20200914-Figure2.png)
+
 
 _Figure 2. A copy of the real world room to test connection with real world IoT devices_
 
-![](RackMultipart20200914-4-9mmxwh_html_402057cf04aedff5.png)
+![](/files/20200914-Figure3.png)
+
 
 _Figure 3. Example Items to test and build new Things from them_
 
 Each of the Items in Unity has a connected corresponding Item Class, which synchronizes with the Server every frame or using the defined frequency.
 
-![](RackMultipart20200914-4-9mmxwh_html_a9f90b249429510.gif)
+![](/files/20200914-Figure4.png)
+
 
 Interaction platform provides interface to interact with the items.
 
@@ -120,9 +105,8 @@ In this case, The Thing has two Items: lamp and Button Activator.
 
 The mesh for the lamp is selected from the available meshes, item is grabbable so It has rigidBody + Mesh Collider. The lamp&#39;s item class extends basic Item class and also uses the OpenHab Integration interface to send get requests to synchronize the current state of the lamp such as light intensity and RGB color.
 
-![](RackMultipart20200914-4-9mmxwh_html_cda67f987d57d09f.png)Second item is a button. The button trigger Script from the Interaction Platform is attached to it and runs the script OnButtonPressed.
-
-It uses the LocationService Singleton, method MoveThing. In the example, we define the direction of movement to the right.
+![](/files/20200914-Figure5.png)
+Second item is a button. The ButtonTrigger Script from the Interaction Platform is attached to it and runs the script OnButtonPressed. It uses the LocationService Singleton, method MoveThing. In the example, we define the direction of movement to the right.
 
 
             
