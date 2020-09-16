@@ -21,7 +21,7 @@ Further, let&#39;s look deeper at the each of its branches.
 
 It either runs locally on the device (VR Headset) or on the PC, and connects to the running instance on the VR headset.
 
-Although currently it is implemented only locally, in the near future it will be possible for several users to control the IoT devices in the VR together, which will be achieved by running synchronized copies of the project with the main PC on the VR headsets.
+Although currently it is implemented only locally, in the near future it will be possible for several users to control IoT devices in VR together, which will be achieved by running synchronized copies of the project with the main PC on the VR headsets.
 
 If we look at Figure 1, we can see that the server consists of three parts:
 
@@ -107,6 +107,10 @@ The mesh for the lamp is selected from the available meshes, item is grabbable s
 
 ![](/files/20200914-Figure5.png)
 Second item is a button. The ButtonTrigger Script from the Interaction Platform is attached to it and runs the script OnButtonPressed. It uses the LocationService Singleton, method MoveThing. In the example, we define the direction of movement to the right.
+
+## What's next
+Before making a good implementation of this structure, first need to be sure that this structure is effective. After the confirmation I can continue with adding new items and interaction techniques.
+<iframe width="420" height="315" src="/files/20200916-demo.mp4" frameborder="0" allowfullscreen></iframe>
 
 
             
