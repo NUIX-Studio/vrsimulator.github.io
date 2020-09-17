@@ -10,7 +10,7 @@ categories: VRSimulator posts
 1. Button – press it: by using finger, distance – use a stick. Parameters: size, shape, height, force, 
 2. Slider – like a button, move it around a line, fingers, stick, 
 3. Touch Screen – precision is low, when interact, because can’t see the surface, we can use some indicator like a lamp to show that user is already touching the screen, and doesn’t need to move the finger lower or can move the screen together with the finger. Another – use a pen, controller. Can also Intearct with a touchscreen connected to ine of your hands with another hand, like in vrchat
-4. Cube – touch 4 facing faces of the cube, each of them perform an action. Addidtional: can touch the edges with a virtual stick, example: beatsaber
+4. Cube – touch 4 facing faces of the cube, each of them perform an action. Addidtional: can touch the edges with a virtual stick, example: beatsaber, [mini bearsaber](https://vrscout.com/news/mini-beat-saber-oculus-quest-hand-tracking/)
 5. Iron-man kind-of( transparent) touch screen
 6. Switcher – on/off
 7. Transparent button, just need to intersect with it, see example [here](https://medium.com/shopify-vr/expo-towards-rapid-vr-prototyping-15356d53ea71)
