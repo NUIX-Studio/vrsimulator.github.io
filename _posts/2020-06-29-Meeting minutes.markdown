@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meeting minutes"
-date:   2020-07-21 00:00:00 +0000
+date:   2020-09-17 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
@@ -52,5 +52,6 @@ What was mentioned / plans:
 4. Can use two different VR headsets (and compare them).
 5. How are the post / get requests are created in openHAB? How can we add our own code to the openHAB platform?
 
-
+## Fifth meeting
+During the last two months we had several meetings, minutes for which have not been written here.
 
