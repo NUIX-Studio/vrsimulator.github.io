@@ -1,16 +1,42 @@
 ---
 layout: post
 title:  "Location and interaction services"
-date:   2020-06-26 00:00:00 +0300
+date:   2020-09-17 00:00:00 +0300
 categories: VRSimulator posts
 ---
-This is probably going to be the main part of the research. For the brief introduction of it please have a look at the [thesis proposal](/thesis/2020/06/25/thesis-proposal.html).
+# Interaction platform
 
+## Things we can interact with by touching
+1. Button – press it: by using finger, distance – use a stick. Parameters: size, shape, height, force, 
+2. Slider – like a button, move it around a line, fingers, stick, 
+3. Touch Screen – precision is low, when interact, because can’t see the surface, we can use some indicator like a lamp to show that user is already touching the screen, and doesn’t need to move the finger lower or can move the screen together with the finger. Another – use a pen, controller. Can also Intearct with a touchscreen connected to ine of your hands with another hand, like in vrchat
+4. Cube – touch 4 facing faces of the cube, each of them perform an action. Addidtional: can touch the edges with a virtual stick, example: beatsaber
+5. Iron-man kind-of( transparent) touch screen
+6. Switcher – on/off
+7. Transparent button, just need to intersect with it, see example [here](https://medium.com/shopify-vr/expo-towards-rapid-vr-prototyping-15356d53ea71)
+
+## Other ways to interact, not touch:
+1. Microphone – just use the one inside VR headset. Can use voice commands
+2. Speaker – Use Unity 3D sound, only according to the distance
+3. Hand Gestures – connect two fingers, make a sign; i.e. [link](https://www.roadtovr.com/creative-uses-oculus-quest-hand-tracking-daniel-beauchamp/); hand walking; throwing hands; 
+4. 
+5. 
+
+## How to interact with distant objects:
+1. Make your hand much longer, hand tracking still works, you can operate with distant objects
+2. Use a virtual saber
+3. Throw your hand
+4. 
+… Editing…
+
+
+
+06-26:
 I currently make a research on existing solutions for similar problems:
 
 1. [Tracking People in a Mobile Robot From 2D LIDAR Scans Using Full Convolutional Neural Networks for Security in Cluttered Environments](https://www.frontiersin.org/articles/10.3389/fnbot.2018.00085/full) - the name speaks for itself;
 
-## TBD
+
 
 
             
