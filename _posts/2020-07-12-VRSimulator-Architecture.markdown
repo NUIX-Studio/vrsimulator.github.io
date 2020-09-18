@@ -31,6 +31,8 @@ If we look at Figure 1, we can see that the server consists of three parts:
 
 The implementation can be found at [Client/Assets/Server](https://github.com/VRSimulator/VRSimulator-Prototype/tree/master/Client/Assets/Server). To have access, please contact Fedor to add you to the github project.
 
+UPD 9.18: Since time is limited, Server will be running on Unity. Later all Unity-specific functionality will be moved to Unity integration platform. (for example, initialization of class' fields will be moved from Start() to constructors).
+
 ## Things Database
 
 Things are the entities that can physically be added to a system and which can potentially provide many functionalities in one. It is important to note that Things do not have to be devices, but they can also represent a web service or any other manageable source of information and functionality. From a user perspective, they are relevant for the setup and configuration process, but not for the operation.

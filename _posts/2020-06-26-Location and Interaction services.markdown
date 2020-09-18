@@ -29,7 +29,9 @@ categories: VRSimulator posts
 4. 
 … Editing…
 
-
+## Other Items
+1. Lamps: light color, intensity, cookie, halo, flare
+2. 
 
 06-26:
 I currently make a research on existing solutions for similar problems:
