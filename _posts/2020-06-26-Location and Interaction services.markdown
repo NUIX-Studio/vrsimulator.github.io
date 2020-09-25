@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Location and interaction services"
-date:   2020-09-17 00:00:00 +0300
+date:   2020-09-25 00:00:00 +0300
 categories: VRSimulator posts
 ---
 # Interaction platform
