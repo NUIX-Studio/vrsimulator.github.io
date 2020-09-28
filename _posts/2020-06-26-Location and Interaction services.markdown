@@ -100,7 +100,7 @@ Sorry for the sound quality, had to record using the notebook's built-in one.
 ## Other ways to interact, not touch:
 1. Microphone – just use the one inside VR headset. Can use voice commands
 2. Speaker – Use Unity 3D sound, only according to the distance
-3. Hand Gestures – connect two fingers, make a sign; i.e. [link](https://www.roadtovr.com/creative-uses-oculus-quest-hand-tracking-daniel-beauchamp/); hand walking(\*); throwing hands(\*); 
+3. Hand Gestures – connect two fingers, make a sign; i.e. [link](https://www.roadtovr.com/creative-uses-oculus-quest-hand-tracking-daniel-beauchamp/); hand walking(\*) - does not track correctly on Quest, the lower hand is not visible behind the upper hand; throwing hands(\*); 
 4. 
 5. 
 
