@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VRSimulator IoT Playground"
-date:   2020-08-12 00:00:00 +0000
+date:   2200-08-12 00:00:00 +0000
 categories: VRSimulator posts
 ---
 I have decided to move the development into another Unity project.

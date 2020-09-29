@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "My First Mistake"
-date:   2020-06-28 00:00:00 +0000
+date:   2200-06-28 00:00:00 +0000
 categories: IoT posts
 ---
+
+Put this to 2200 because this article is not needed atm
 
 
 In this post I will show you an example of companies greediness and how they try to lure users into their ecosystems.
