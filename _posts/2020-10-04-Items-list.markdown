@@ -18,9 +18,9 @@ Things in the platform can be based on the UX building blocks, see [documentatio
 ## Indirect manipulation
 > Indirect Manipulation refers to the manipulation of virtual objects by means of a proxy object or controller, like a mouse. [link](https://medium.com/usable-or-not/direct-v-indirect-manipulation-in-vr-b7c5c4f09c55#:~:text=Indirect%20Manipulation%20refers%20to%20the,drag%20them%20to%20the%20trash.)
 
-Teleportation or pointing on the object and moving it around the scene are examples of indirect manipulation. Although these manipulations can't be represented in real world, using them the experience with VR IoT platform becomes more comfortable. [link](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_development/Documentation/Input/Pointers.md)
+Teleportation or pointing to the object and moving it around the scene are examples of indirect manipulation. Although these manipulations can't be represented in real world, using them the experience with VR IoT platform becomes more comfortable. [link](https://github.com/microsoft/MixedRealityToolkit-Unity/blob/mrtk_development/Documentation/Input/Pointers.md)
 
-Another way of indirect manipulation are:
+Another ways of indirect manipulation are:
 1. Using a microphone (in development).
 2. Using camera data, registering hand gestures (in development).
 
@@ -28,5 +28,5 @@ Another way of indirect manipulation are:
 ## Sensors and motors
 Things are not only interactable, but by default they are created to provide some output to user, such as sensing data, light, sound or even change it's own location.
 
-## Building new Thing
+## Building a new Thing
 When adding a new thing to the platform, researchers should follow the [design rules](https://vrsimulator.github.io/vrsimulator/posts/2020/09/14/VRSimulator-Architecture.html): combine things from items, like any item is a block. Interaction between items has to be defined by researcher inside the thing class. Some of the interactions are already defined.
