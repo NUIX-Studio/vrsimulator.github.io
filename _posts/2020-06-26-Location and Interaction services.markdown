@@ -8,6 +8,8 @@ categories: VRSimulator posts
 
 # Tutorial
 
+OUTDATED INFO, WILL BE REWRITTEN SOON
+
 ## How to add a thing
 
 #### 1. Open Client as a project in Unity
