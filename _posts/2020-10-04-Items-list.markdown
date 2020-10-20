@@ -23,7 +23,7 @@ Example: [Moving objects around](https://vrsimulator.github.io/vrsimulator/posts
 
 Another ways of indirect manipulation are:
 1. Using a microphone (in development).
-2. Using camera data, registering hand gestures (in development).
+2. Using camera data, registering hand gestures.
 
 
 ## Sensors and motors

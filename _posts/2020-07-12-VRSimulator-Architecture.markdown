@@ -1,35 +1,13 @@
 ---
 layout: post
-title:  "VRSimulator Architecture"
+title:  "VRSimulator Architecture (Old version)"
 date:   2020-09-14 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
+# The architecture has changed, please see the updated version of the text
+
 # Introduction
-
-
-... Editing ...
-Since it was decided to start using Microsoft Mixed Reality toolkit to simulate direct and indirect manipulation with the things, I have to rewrite the tutorial...
-
-The basic principles remain the same, while creation of items has to become different.
-
-Let's just create one thing step-by-step:
-
-This time let's create a smart vacuum cleaner with a control center (on the base).
-
-The items will be:
-Base, 1 buttons:
-1. Undock the vacuum cleaner (same as start the program);
-Charging dock;
-Smart vacuum cleaner:
-1. Boby;
-2. Motor;
-
-... Editing ... it is implemented, I will add the tutorial later ... Editing ...
-
-
-
-
 
 This document is about the design of the VR IoT Platform.
 
