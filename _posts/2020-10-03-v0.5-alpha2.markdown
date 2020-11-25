@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Version 0.5-alpha2"
+date:   2020-11-25 00:00:00 +0300
+categories: VRSimulator posts
+---
+New [release](https://github.com/VRSimulator/IoThingsLab/releases/tag/v0.5-alpha.2)
+<iframe width="420" height="315" src="/files/Recordings/DemoVideo-Ver0.5-alpha2.mp4" frameborder="0" allowfullscreen></iframe>
