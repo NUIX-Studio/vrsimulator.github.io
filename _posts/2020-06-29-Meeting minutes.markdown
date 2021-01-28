@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Meeting minutes"
-date:   2020-09-17 00:00:00 +0000
+date:   2021-01-25 00:00:00 +0000
 categories: VRSimulator posts
 ---
 
@@ -52,6 +52,13 @@ What was mentioned / plans:
 4. Can use two different VR headsets (and compare them).
 5. How are the post / get requests are created in openHAB? How can we add our own code to the openHAB platform?
 
-## Fifth meeting
-During the last two months we had several meetings, minutes for which have not been written here.
+## Meeting 2021.01.25
 
+1. Assumed that we need to implement a "layer" to hold most of the computations.
+Architecture looks like this: _Real World Items <-> openHAB bindings <-> openHAB database storage <-> "layer" <-> REST API <-> Unity App <-> Virtual reality and virtual items interaction_;
+2. Divided responsibilities;
+3. The first things needed is the definition of the "layer" functionality and what API it is going to provide;
+4. Current status: can create things and items inside openHAB (real and virtual) and sunchronize them into Unity:
+
+![Current Status](/files/MeetingMinutes/Client-Items.png)
+![Current Status](/files/MeetingMinutes/Server-Items.png)
